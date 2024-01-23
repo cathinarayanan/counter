@@ -1,8 +1,7 @@
 let counterValue = 0;
 
-const counterElement = document.getElementById('counter');
-
 function incrementCounter() {
+  const counterElement = document.getElementById('counter');
   counterValue++;
   counterElement.textContent = counterValue;
 }
